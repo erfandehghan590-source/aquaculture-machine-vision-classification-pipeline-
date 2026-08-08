@@ -1,0 +1,38 @@
+root_dir: "C:/Users/conceptD"
+
+models:
+  - name: "MobileNetV3-Large"
+    log_path: "mobilenetv3large/mobilenet_training_log_augmented.jsonl"
+    heatmap_folder: "mobilenetv3large/gradcam_MOBILENET_augmented_infected_predictions"
+
+  - name: "ResNet50"
+    log_path: "resnet50/resnet50_training_log_augmented.jsonl"
+    heatmap_folder: "resnet50/gradcam_RESNET50_augmented_infected_predictions"
+
+  - name: "ResNet18"
+    log_path: "resnet18/resnet18_training_log_augmented.jsonl"
+    heatmap_folder: "resnet18/gradcam_RESNET18_augmented_infected_predictions"
+
+  - name: "ViT-B16"
+    log_path: "ViTB16/vit_training_log_augmented.jsonl"
+    heatmap_folder: "ViTB16/gradcam_VIT_augmented_infected_predictions"
+
+  - name: "Swin-Tiny"
+    log_path: "swintiny/swin_tiny_training_log_augmented.jsonl"
+    heatmap_folder: "swintiny/gradcam_SWIN_TINY_augmented_infected_predictions"
+
+  - name: "ConvNeXt-Tiny"
+    log_path: "convnexttiny/convnext_tiny_training_log_augmented.jsonl"
+    heatmap_folder: "convnexttiny/gradcam_CONVNEXT_TINY_augmented_infected_predictions"
+
+  - name: "ProtoNet-ResNet50"
+    log_path: "protonet-with-resnet50-backbone/protonet_resnet50_training_log_augmented.jsonl"
+    heatmap_folder: "protonet-with-resnet50-backbone/gradcam_PROTONET_RESNET50_augmented_infected_predictions"
+
+  - name: "ProtoNet-ResNet18"
+    log_path: "protonet-with-resnet18-backbone/protonet_resnet18_training_log_augmented.jsonl"
+    heatmap_folder: "protonet-with-resnet18-backbone/gradcam_PROTONET_RESNET18_augmented_infected_predictions"
+
+  - name: "ProtoNet-ConvNeXt-Tiny"
+    log_path: "protonet-with-convnexttiny-backbone/protonet_convnext_tiny_training_log_augmented.jsonl"
+    heatmap_folder: "protonet-with-convnexttiny-backbone/gradcam_PROTONET_CONVNEXT_TINY_augmented_infected_predictions"
